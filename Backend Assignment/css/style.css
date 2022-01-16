@@ -1,0 +1,44 @@
+body
+{
+     background-color: rgb(0, 119, 255);
+}
+.products
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: lightgrey;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.product_name
+{
+    text-align: center;
+    color: black;
+    border: 2px solid gray;
+    background-color: darkgray;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form
+{
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#admin_login_form
+{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+}
