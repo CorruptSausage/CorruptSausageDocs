@@ -1,9 +1,8 @@
-body
-{
-     background-color: rgb(0, 119, 255);
+body {
+    background-color: rgb(0, 119, 255);
 }
-.products
-{
+
+.products {
     padding: 10px;
     border: 2px solid black;
     border-radius: 5px;
@@ -14,8 +13,7 @@ body
     margin-top: 20px;
 }
 
-.product_name
-{
+.product_name {
     text-align: center;
     color: black;
     border: 2px solid gray;
@@ -24,21 +22,33 @@ body
     width: 100%;
 }
 
-.form
-{
-    border: 2px solid rgb(0, 153, 255);
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-#admin_login_form
-{
-    width: 50%;
+.form {
+    width: 20%;
     border: 2px solid black;
     border-radius: 5px;
     background-color: white;
     margin: auto;
     margin-top: 20px;
-    padding: 5px;
+    padding: 25px;
+}
+
+.product_id_to_delete {
+    width: 10%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .product_id_to_delete {
+        width: 50%;
+    }
+
+    .form {
+        width: 85%;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: white;
+        margin: 0;
+        margin-top: 20px;
+        padding: 25px;
+    }
 }

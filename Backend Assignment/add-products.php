@@ -1,15 +1,5 @@
 <?php
 
-// Initialize the session
-session_start();
-
-// Check if the user is logged in, if not then redirect him to login page
-if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
-    header("location: admin-login");
-    exit;
-}
-
-
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $product_name_form = $_POST['product_name_form'];
     $product_price_form = $_POST['product_price_form'];
@@ -60,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <body>
     <?php
-    include("./inc/admin-navbar.php");
+    include("./inc/navbar.php");
     ?>
     <div class="form">
         <form method="POST" action="#">

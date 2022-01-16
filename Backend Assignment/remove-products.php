@@ -1,14 +1,5 @@
 <?php
 
-// Initialize the session
-session_start();
- 
-// Check if the user is logged in, if not then redirect him to login page
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: admin-login");
-    exit;
-}
-
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $product_id_to_remove = $_POST['product_id_to_delete'];
@@ -31,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "DELETE FROM products WHERE product_id=$product_id_to_remove";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Record deleted successfully";
+        echo "Product was deleted succesfully!";
     } else {
         echo "Error deleting record: " . $conn->error;
     }
@@ -60,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
     <?php
-    include("./inc/admin-navbar.php");
+    include("./inc/navbar.php");
 
     ?>
     <div class="form">
@@ -68,7 +59,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <ul>
                 <li>
                     <label>Product id</label>
-                    <input type="text" name="product_id_to_delete" required>
+                </li>
+                <li>
+                    <input type="text" name="product_id_to_delete" class="product_id_to_delete" required>
                 </li>
                 <li>
                     <button type="submit">Remove</button>

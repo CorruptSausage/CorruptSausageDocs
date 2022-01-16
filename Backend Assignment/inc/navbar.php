@@ -3,7 +3,8 @@
 
 <div class="topnav" id="myTopnav">
     <a href="./index" class="active">Home</a>
-    <a href="./admin-login">Login</a>
+    <a href="./add-products">Add products</a>
+    <a href="./remove-products">Remove products</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
