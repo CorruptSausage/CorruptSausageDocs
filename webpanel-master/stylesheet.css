@@ -1,0 +1,179 @@
+
+* {
+  font-family: 'Arial';
+  color: white;
+  
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+	padding: 2px;
+	
+}
+
+body {
+	color: white;
+  background-image: url("./img/login_background.jpg");
+}
+
+
+
+.smal {
+  height: 250px;
+  width: 250px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #252525;
+  z-index: 999999;
+  }
+
+.spinner {
+position: absolute;
+top: 48%;
+left: 48%;
+}
+
+.progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ 
+  width: 50%;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.76);
+  color: white;
+  text-align: center;
+  padding: 7px;
+  font-size: 17px;
+}
+
+a {
+  color: rgb(218, 218, 218);
+}
+
+a:hover, a:visited {
+  color: rgb(136, 136, 136);
+}
+
+
+
+.padd {
+  padding-left: 25px;
+
+}
+
+.cleanGreen {
+  color: #1067BD
+}
+
+.bottom-right
+{
+margin: 5px;
+right: 5px;
+bottom: 0px;
+position: absolute;
+}
+
+.center_info {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	text-align: center;
+	padding: 1%;
+	
+	border: 10px solid #1067BD;
+}
+  
+.center_infoCard {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+	
+	text-align: left;
+	padding: 1%;
+	
+	border: 10px solid #1067BD;
+}
+
+#bootn
+{
+  background-color: #1067BD;
+}
+
+.btn
+{
+  background-color: #1067BD;
+}
+
+input
+{
+  color: white;
+}
+
+.login_form
+{
+  border: 2px solid #1067BD;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.login_button
+{
+  padding: 15px;
+  background-color: #1067BD;
+  width: 50%;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.login_button:hover
+{
+  padding: 15px;
+  background-color: #0d56a0;
+  width: 50%;
+  border-radius: 5px;
+  color: white;
+}
+
+.login_password
+{
+  color: white;
+}
+
+#login_password{
+  width: 50%;
+  color: white;
+}
+
+#login_username{
+  width: 50%;
+  color: white;
+}
+
+    
+
+
+
