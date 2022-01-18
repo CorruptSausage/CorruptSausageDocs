@@ -30,7 +30,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
 <body>
     <?php include("./inc/navbar-logged-in.php");  ?>
-    <h1><b><?php echo htmlspecialchars($_SESSION["username"]); ?></b> Logged in.</h1>
+    <h1>Welcome <?php echo htmlspecialchars($_SESSION["username"]); ?></h1>
     <p>
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
         <!-- Button to Open the Modal -->
@@ -53,11 +53,11 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    Username: <?php echo htmlspecialchars($_SESSION["username"]); ?>
-                    <br>
-                    Account ID: <?php echo htmlspecialchars($_SESSION["id"]);  ?>
-                    <br>
-                    Created at: <?php echo htmlspecialchars($_SESSION["created_at"]); ?>
+                    <div class="modal-body-content">
+                        Username: <p style="font-weight: bold;"><?php echo htmlspecialchars($_SESSION["username"]); ?></p>
+                        Account ID: <p style="font-weight: bold;"><?php echo htmlspecialchars($_SESSION["id"]);  ?></p>
+                        Created at: <p style="font-weight: bold;"><?php echo htmlspecialchars($_SESSION["created_at"]); ?></p>
+                    </div>
                 </div>
 
                 <!-- Modal footer -->

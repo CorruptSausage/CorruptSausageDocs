@@ -6,7 +6,7 @@
     <a href="#">Preview</a>
     <a href="#">Contact</a>
     <a href="#">About us</a>
-    <a href="./login">Login</a>
+    <a href="./login" style="float:right;">Login</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
