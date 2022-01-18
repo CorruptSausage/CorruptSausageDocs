@@ -9,3 +9,21 @@
 {
     text-align: left;
 }
+
+.wrapper
+{
+    margin: auto;
+}
+
+.login_form
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FAF8BF;
+}
+
+body
+{
+    background-color: #234E70;
+}

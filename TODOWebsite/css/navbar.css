@@ -23,8 +23,8 @@
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #FAF8BF;
+    color: black;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -38,6 +38,11 @@
 }
 
 #navbar_account
+{
+    float: right;
+}
+
+#navbar_login
 {
     float: right;
 }
@@ -61,6 +66,11 @@
     {
         float: none;
     }
+
+    #navbar_login
+{
+    float: none;
+}
 }
 
 @media screen and (max-width: 600px) {
