@@ -6,8 +6,8 @@
     <a href="#">Preview</a>
     <a href="#">Contact</a>
     <a href="#">About us</a>
-    <a href="./logout" id="navbar_logout">Logout</a>
-    <a href="./welcome" id="navbar_account"">Account</a>
+    <a href="./logout" id="navbar_logout" class="active">Logout</a>
+    <a href="./welcome" id="navbar_account" class="active">Account</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
