@@ -118,8 +118,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <?php include("./inc/navbar-normal.php");  ?>
+    <?php include("./inc/database.php");
+    if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
+        include("./inc/navbar-logged-in.php");
+    } else {
+        include("./inc/navbar-normal.php");
+    }  ?>
     <div class="wrapper">
+    <div class="login_form">
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -143,6 +149,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <a href="./login"><input type="button" class="btn btn-secondary ml-2" value="Go Back"></a>
             </div>
         </form>
+    </div>
     </div>
 </body>
 

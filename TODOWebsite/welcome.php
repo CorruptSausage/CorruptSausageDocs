@@ -29,7 +29,12 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 </head>
 
 <body>
-    <?php include("./inc/navbar-logged-in.php");  ?>
+    <?php include("./inc/database.php");
+    if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
+        include("./inc/navbar-logged-in.php");
+    } else {
+        include("./inc/navbar-normal.php");
+    }  ?>
     <h1>Welcome <?php echo htmlspecialchars($_SESSION["username"]); ?></h1>
     <p>
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>

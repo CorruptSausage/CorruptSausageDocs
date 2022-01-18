@@ -112,7 +112,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <?php include("./inc/navbar-normal.php");  ?>
+    <?php include("./inc/database.php");
+    if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
+        include("./inc/navbar-logged-in.php");
+    } else {
+        include("./inc/navbar-normal.php");
+    }  ?>
     <div class="wrapper">
         <div class="login_form">
             <h2>Login</h2>
