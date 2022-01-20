@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate credentials
     if (empty($username_err) && empty($password_err)) {
         // Prepare a select statement
-        $sql = "SELECT id, username, password, created_at FROM users WHERE username = ?";
+        $sql = "SELECT id, username, email, password, created_at, management FROM users WHERE username = ?";
 
         if ($stmt = mysqli_prepare($link, $sql)) {
             // Bind variables to the prepared statement as parameters
@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Check if username exists, if yes then verify password
                 if (mysqli_stmt_num_rows($stmt) == 1) {
                     // Bind result variables
-                    mysqli_stmt_bind_result($stmt, $id, $username, $hashed_password, $created_at);
+                    mysqli_stmt_bind_result($stmt, $id, $username, $email, $hashed_password, $created_at, $management);
                     if (mysqli_stmt_fetch($stmt)) {
                         if (password_verify($password, $hashed_password)) {
                             // Password is correct, so start a new session
@@ -63,7 +63,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
                             $_SESSION["username"] = $username;
+                            $_SESSION["email"] = $email;
                             $_SESSION["created_at"] = $created_at;
+                            $_SESSION["management"] = $management;
 
                             // Redirect user to welcome page
                             header("location: welcome");
@@ -95,10 +97,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>ToDo - Login</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/navbar.css" type="text/css">
-    <link rel="stylesheet" href="./css/basic.css" type="text/css">
+    <?php include("inc/fonts-header.php"); ?>
+    <?php include("./inc/basic-heads.php") ?>
     <style>
         body {
             font: 14px sans-serif;

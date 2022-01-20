@@ -14,8 +14,8 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/navbar.css" type="text/css">
-    <link rel="stylesheet" href="./css/basic.css" type="text/css">
+    <?php include("inc/fonts-header.php"); ?>
+    <?php include("./inc/basic-heads.php") ?>
     <title>ToDo - Home</title>
 </head>
 
