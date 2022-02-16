@@ -98,7 +98,6 @@ main {
 .topnav {
     background-color: #333;
     overflow: hidden;
-    border-radius: 5px;
     padding: 3px
 }
 
@@ -125,21 +124,5 @@ main {
     color: rgb(197, 197, 197);
 }
 
-#navbar_home
-{
-    float: right;
-}
-
-#navbar_updates
-{
-    float: right;
-}
-
-#logo
-{
-    width: 50%; 
-    float: left; 
-    padding: 0px;
-}
 
 
