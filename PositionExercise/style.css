@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    color: white;
+    background-color: darkgray;
+}
+
+.container
+{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+.red-box
+{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.green-box
+{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.pink-box
+{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.purple-box
+{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.orange-box
+{
+    background-color: orange;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    left: 200px;
+    text-align: center;
+}
+
+.blue-box
+{
+    background-color: blue;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 160px;
+    left: 150px;
+    text-align: center;
+}
+
+.aqua-box
+{
+    background-color: aqua;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 200px;
+    left: 100px;
+    text-align: center;
+}
