@@ -1,10 +1,3 @@
-<?php
-
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,13 +15,16 @@
 
 <body>
     <?php
-    include("./inc/navbar.php");
-
-    // include functions file
-    include("./inc/functions.php");
-    // execute db connection
-    db_print_data();
+    require("./inc/navbar.php");
     ?>
+    <div class="all_products">
+        <?php
+        // include functions file
+        require("./inc/functions.php");
+        // execute db connection
+        db_print_data();
+        ?>
+    </div>
 </body>
 
 </html>

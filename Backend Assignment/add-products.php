@@ -1,38 +1,7 @@
 <?php
-
-if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    $product_name_form = $_POST['product_name_form'];
-    $product_price_form = $_POST['product_price_form'];
-
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $db_name = "products";
-
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $db_name);
-
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-
-    $sql = "INSERT INTO products (product_name, product_price)
-    VALUES ('$product_name_form', '$product_price_form')";
-
-    if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-
-    $conn->close();
-}
-
-
-
+require("./inc/functions.php");
+add_products();
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css//style.css" type="text/css">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css">
@@ -50,21 +18,21 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <body>
     <?php
-    include("./inc/navbar.php");
+    require("./inc/navbar.php");
     ?>
     <div class="form">
         <form method="POST" action="#">
             <ul>
                 <li>
                     <label>Product name</label>
-                    <input type="text" name="product_name_form" required>
+                    <input type="text" name="product_name_form" class="product_info_input">
                 </li>
                 <li>
                     <label>Product price</label>
-                    <input type="text" name="product_price_form" required>
+                    <input type="number" name="product_price_form" class="product_info_input">
                 </li>
                 <li>
-                    <button type="submit">Add</button>
+                    <button type="submit" class="button">Add</button>
                 </li>
             </ul>
         </form>

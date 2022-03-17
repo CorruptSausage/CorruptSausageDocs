@@ -1,35 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: rgb(0, 119, 255);
+    font-family: 'Poppins';
 }
 
 .products {
     padding: 10px;
     border: 2px solid black;
     border-radius: 5px;
-    background: lightgrey;
-    width: 15%;
+    background: #1D3461;
+    width: 45%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    color: white;
 }
 
 .product_name {
     text-align: center;
-    color: black;
+    color: white;
     border: 2px solid gray;
-    background-color: darkgray;
+    background-color: #1F487E;
     border-radius: 5px;
     width: 100%;
+    font-size: 20px;
 }
 
 .form {
-    width: 20%;
+    width: 80% !important;
     border: 2px solid black;
     border-radius: 5px;
     background-color: white;
     margin: auto;
     margin-top: 20px;
     padding: 25px;
+    height: 200px;
 }
 
 .product_id_to_delete {
@@ -43,12 +51,99 @@ body {
     }
 
     .form {
-        width: 85%;
         border: 2px solid black;
         border-radius: 5px;
         background-color: white;
         margin: 0;
         margin-top: 20px;
         padding: 25px;
+        margin: auto;
     }
+}
+
+.all_products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.product_info_input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.product_info_input:hover {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.button {
+    width: 100%;
+    border: 1px solid #1D3461;
+    color: white;
+    background: #1F487E;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button:hover 
+{
+    width: 100%;
+    border: 1px solid #294783;
+    color: white;
+    background: #1F487E;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.errors
+{
+    border: 1px solid red;
+    background-color: #EE3625;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+.success
+{
+    border: 1px solid darkgreen;
+    background-color: #38CD4B;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+.form2 
+{
+    width: 80% !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 25px;
+    height: 200px;
 }
