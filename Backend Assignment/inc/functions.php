@@ -54,11 +54,11 @@ function add_products()
         $errors = [];
 
         if (trim($product_name_form) == "") {
-            $errors[] = "Error! " . "Please fill in a name.";
+            $errors[] = "Error! Please fill in a name.";
         }
 
         if (trim($product_price_form) == "") {
-            $errors[] = "Please fill in a price.";
+            $errors[] = "Error! Please fill in a price.";
         }
 
         if (count($errors) == 0) {
