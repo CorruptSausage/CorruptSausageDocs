@@ -98,8 +98,7 @@ li {
     border-radius: 5px;
 }
 
-.button:hover 
-{
+.button:hover {
     width: 100%;
     border: 1px solid #294783;
     color: white;
@@ -108,8 +107,7 @@ li {
     border-radius: 5px;
 }
 
-.errors
-{
+.errors {
     border: 1px solid red;
     background-color: #EE3625;
     margin-left: 5px;
@@ -122,8 +120,7 @@ li {
     transition: 0.5s;
 }
 
-.success
-{
+.success {
     border: 1px solid darkgreen;
     background-color: #38CD4B;
     margin-left: 5px;
@@ -136,8 +133,7 @@ li {
     transition: 0.5s;
 }
 
-.form2 
-{
+.form2 {
     width: 80% !important;
     border: 2px solid black;
     border-radius: 5px;
