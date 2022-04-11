@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+#header_logo {
+    width: 15%;
+}
+
+.extra_images {
+    width: 30%;
+}
+
+.items {
+    display: flex;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.item_info {
+    padding: 5px;
+    position: relative;
+}
+
+.more_info {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #0282F9;
+    color: white;
+    position: absolute;
+    top: 105px;
+    left: 2px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.more_info:hover {
+    background-color: #0078e9;
+    cursor: pointer;
+}
+
+header {
+    background-color: #ED171F;
+    padding: 0;
+}
+
+.left_container {
+    width: 33.33%;
+    border: 1px solid #ED171F;
+}
+
+.middle_container {
+    width: 33.33%;
+    border: 1px solid #ED171F;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+}
+
+.right_container {
+    width: 33.33%;
+    border: 1px solid #ED171F;
+    position: relative;
+    overflow-y: scroll;
+    padding-bottom: 200px;
+    transition: 0.5s;
+}
+
+.description {
+    padding-bottom: 10px;
+}
+
+#left_banner {
+    width: 99%;
+    border: 3px solid #ED171F;
+}
+
+.left_title {
+    text-align: center;
+}
+
+#left_info {
+    text-align: center;
+}
+
+.right_banner_banner {
+    width: 100%;
+}
+
+.right_container_hero {
+    color: white;
+    font-size: 30px;
+    background-color: #ED171F;
+    text-align: center;
+}
+
+.right_superhero_information {
+    padding: 5px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+h2 {
+    border: 1px solid #ED171F;
+    background-color: #ED171F;
+    text-align: center;
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #aa1016;
+}
+
+.star_rating
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}

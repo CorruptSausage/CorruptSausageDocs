@@ -1,22 +1,5 @@
 <?php
 
-// connect to database connection
-function db()
-{
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $db_name = "products";
-
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $db_name);
-
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-}
-
 function db_print_data()
 {
     $servername = "localhost";

@@ -151,7 +151,7 @@ button:hover {
     }
 
     #image:hover {
-        width: 100%;
+        width: 100.3%;
         float: right;
         transition: 0.5s;
     }
@@ -166,6 +166,62 @@ button:hover {
     .info {
         padding-top: 50px;
         width: 440px;
+        text-align: center;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    header {
+        background-color: #F3BE22;
+        color: white;
+        display: flex;
+        width: 414px;
+        margin: auto;
+        position: relative;
+        padding-top: 450px;
+        box-shadow: 0px 0px 2px 2px rgb(243, 190, 34, 0.3);
+        border-radius: 0px;
+        padding-bottom: 300px;
+        transition: 0.5s;
+    }
+
+    p {
+        width: 70%;
+        line-height: 20px;
+        margin: 0;
+        transition: 0.5s;
+    }
+
+    .big_text {
+        font-size: 50px;
+        line-height: 50px;
+        transition: 0.5s;
+    }
+
+    #image {
+        width: 100%;
+        float: right;
+        transition: 0.5s;
+    }
+
+    #image:hover {
+        width: 100.3%;
+        float: right;
+        transition: 0.5s;
+    }
+
+    .right_container {
+        float: right;
+        position: absolute;
+        top: 390px;
+        transition: 0.5s;
+    }
+
+    .info {
+        padding-top: 50px;
+        width: 370px;
         text-align: center;
         border-radius: 5px;
         transition: 0.5s;
