@@ -13,11 +13,15 @@
     <?php include("../includes/rangenNavbar.php"); ?>
     <div class="container">
         <main role="main" class="pb-3">
-
+            <div class="main_text">Binnen de Politie hebben wij een aantal rangen, hieronder ziet u een foto.</div>
+            <div class="left_container">
+                Aspirant: In opleiding
+            </div>
+            <div class="right_container">
+                <img src="../resources/rangen-politie.png" class="rangen_image">
+            </div>
         </main>
     </div>
-
-
     <script src="../lib/jquery/dist/jquery.min.js"></script>
     <script src="../lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/site.js"></script>
