@@ -282,6 +282,11 @@ footer {
   color: white;
   margin-top: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  transition: 0.5s;
+}
+.projects_information button:hover {
+  background-color: #34495e;
+  transition: 0.5s;
 }
 
 .projects_display {
@@ -310,6 +315,44 @@ footer {
 }
 .projects_display .projects_display_right li {
   margin-left: 20px;
+}
+
+.contact_form_container form {
+  text-align: center;
+}
+.contact_form_container .input_type_text {
+  border: 2px solid #34495e;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  width: 400px;
+  padding-left: 5px;
+  transition: 0.5s;
+}
+.contact_form_container textarea {
+  border: 2px solid #34495e;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  width: 400px;
+  padding-left: 3px;
+  transition: 0.5s;
+}
+.contact_form_container button {
+  background-color: #E56711;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  margin-top: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+.contact_form_container button:hover {
+  background-color: #34495e;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 600px) {

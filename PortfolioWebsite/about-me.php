@@ -28,7 +28,7 @@
                                 <li><a class="gn-icon" href="about-me.php">About me</a></li>
                                 <li><a class="gn-icon" href="study.php">Study</a></li>
                                 <li><a class="gn-icon" href="projects.php">Projects</a></li>
-                                <li><a class="gn-icon">Contact</a></li>
+                                <li><a class="gn-icon" href="contact.php">Contact</a></li>
                             </ul>
                         </li>
                     </ul>
