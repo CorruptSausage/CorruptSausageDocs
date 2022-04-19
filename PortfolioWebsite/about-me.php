@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jordy Slaats">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -22,11 +23,11 @@
                 <div class="gn-scroller">
                     <ul class="gn-menu">
                         <li>
-                            <a class="bi" href="index.html">Home</a>
+                            <a class="bi" href="index.php">Home</a>
                             <ul class="gn-submenu">
-                                <li><a class="gn-icon" href="about-me.html">About me</a></li>
-                                <li><a class="gn-icon" href="study.html">Study</a></li>
-                                <li><a class="gn-icon">Projects</a></li>
+                                <li><a class="gn-icon" href="about-me.php">About me</a></li>
+                                <li><a class="gn-icon" href="study.php">Study</a></li>
+                                <li><a class="gn-icon" href="projects.php">Projects</a></li>
                                 <li><a class="gn-icon">Contact</a></li>
                             </ul>
                         </li>
@@ -35,7 +36,7 @@
             </nav>
         </li>
         <li>
-            <a href="index.html">Jordy Slaats</a>
+            <a href="index.php">Jordy Slaats</a>
         </li>
     </ul>
     <header>

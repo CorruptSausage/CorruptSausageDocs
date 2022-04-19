@@ -232,11 +232,84 @@ footer {
   float: right;
   width: 45%;
 }
+.study_information .study_information_right_container h1,
+.study_information .study_information_right_container h2 {
+  text-align: center;
+}
 .study_information .study_information_left_container_tabs {
   border-radius: 10px;
   background-color: white;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  margin-top: 10px;
+}
+.study_information .study_information_right_container_tabs {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.projects_information .projects_information_tabs {
+  display: flex;
+  border: 2px solid #34495e;
+  border-radius: 10px;
+}
+.projects_information .projects_information_left_container {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  padding-left: 15px;
+}
+.projects_information .projects_information_middle_container {
+  width: 33.33%;
+  padding: 10px;
+}
+.projects_information .projects_information_right_container {
+  float: right;
+  width: 33.33%;
+  padding: 10px;
+}
+.projects_information h2 {
+  text-align: center;
+}
+.projects_information button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background: #E56711;
+  width: 99%;
+  color: white;
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.projects_display {
+  display: flex;
+}
+.projects_display .projects_display_left {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+.projects_display .projects_display_left img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.projects_display .projects_display_right {
+  width: 50%;
+  float: right;
+}
+.projects_display .projects_display_right h1,
+.projects_display .projects_display_right p,
+.projects_display .projects_display_right h3,
+.projects_display .projects_display_right ul,
+.projects_display .projects_display_right h2 {
+  margin-left: 10px;
+}
+.projects_display .projects_display_right li {
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -311,6 +384,28 @@ footer {
     background-color: white;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+
+  .projects_display {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects_display .projects_display_left {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+  }
+  .projects_display .projects_display_left img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #34495e;
+  }
+  .projects_display .projects_display_right {
+    width: 100%;
+    float: right;
+  }
+  .projects_display .projects_display_right h1, .projects_display .projects_display_right p, .projects_display .projects_display_right h3, .projects_display .projects_display_right ul, .projects_display .projects_display_right h2 {
+    margin-left: 10px;
   }
 }
 @media screen and (max-width: 1107px) {
