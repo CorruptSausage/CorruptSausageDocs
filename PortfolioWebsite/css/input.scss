@@ -240,15 +240,13 @@ footer {
     display: flex;
     color: $dark-color;
 
-    a
-    {
+    a {
         color: $dark-color;
         text-decoration: none;
         transition: 0.5s;
     }
 
-    a:hover
-    {
+    a:hover {
         color: black;
         text-decoration: underline;
         transition: 0.5s;
@@ -263,6 +261,12 @@ footer {
     .study_information_right_container {
         float: right;
         width: 45%;
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
     }
 
     .study_information_left_container_tabs {
@@ -270,6 +274,148 @@ footer {
         background-color: white;
         padding: 20px;
         box-shadow: $box-shadow;
+        margin-top: 10px;
+    }
+
+    .study_information_right_container_tabs {
+        border-radius: 10px;
+        background-color: white;
+        padding: 20px;
+        box-shadow: $box-shadow;
+    }
+}
+
+.projects_information {
+
+    .projects_information_tabs {
+        display: flex;
+        border: 2px solid $dark-color;
+        border-radius: 10px;
+    }
+
+    .projects_information_left_container {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        padding-left: 15px;
+    }
+
+    .projects_information_middle_container {
+        width: 33.33%;
+        padding: 10px;
+    }
+
+    .projects_information_right_container {
+        float: right;
+        width: 33.33%;
+        padding: 10px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    button {
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        background: $orange-color;
+        width: 99%;
+        color: white;
+        margin-top: 5px;
+        box-shadow: $box-shadow;
+        transition: 0.5s;
+    }
+
+    button:hover
+    {
+        background-color: $dark-color;
+        transition: 0.5s;
+    }
+}
+
+.projects_display {
+    display: flex;
+
+    .projects_display_left {
+        width: 50%;
+        float: left;
+        margin-top: 20px;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: $box-shadow;
+        }
+    }
+
+    .projects_display_right {
+        width: 50%;
+        float: right;
+
+        h1,
+        p,
+        h3,
+        ul,
+        h2 {
+            margin-left: 10px;
+        }
+
+        li {
+            margin-left: 20px;
+        }
+
+    }
+}
+
+.contact_form_container
+{
+    form
+    {
+        text-align: center;
+    }
+    
+    .input_type_text
+    {
+        border: 2px solid $dark-color;
+        border-radius: 5px;
+        box-shadow: $box-shadow;
+        width: 400px;
+        padding-left: 5px;
+        transition: 0.5s;
+    }
+
+
+    textarea
+    {
+        border: 2px solid $dark-color;
+        border-radius: 5px;
+        box-shadow: $box-shadow;
+        width: 400px;
+        padding-left: 3px;
+        transition: 0.5s;
+    }
+
+    button
+    {
+        background-color: $orange-color;
+        border-radius: 10px;
+        border: none;
+        box-shadow: $box-shadow;
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        margin-top: 10px;
+        width: 200px;
+        margin-bottom: 20px;
+        transition: 0.5s;
+    }
+
+    button:hover
+    {
+        background-color: $dark-color;
+        transition: 0.5s;
     }
 }
 
@@ -330,8 +476,7 @@ footer {
         display: flex;
         flex-direction: column;
 
-        h1
-        {
+        h1 {
             text-align: center;
         }
 
@@ -351,6 +496,34 @@ footer {
             background-color: white;
             padding: 20px;
             box-shadow: $box-shadow;
+        }
+    }
+
+    .projects_display {
+        display: flex;
+        flex-direction: column;
+
+        .projects_display_left {
+            width: 100%;
+            float: left;
+            margin-top: 20px;
+
+            img {
+                width: 100%;
+                border-radius: 10px;
+                border: 1px solid $dark-color;
+            }
+        }
+
+        .projects_display_right {
+            width: 100%;
+            float: right;
+
+            h1, p, h3, ul, h2 {
+                margin-left: 10px;
+            }
+
+
         }
     }
 }

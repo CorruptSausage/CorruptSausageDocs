@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jordy Slaats">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -22,12 +23,12 @@
                 <div class="gn-scroller">
                     <ul class="gn-menu">
                         <li>
-                            <a class="bi" href="index.html">Home</a>
+                            <a class="bi" href="index.php">Home</a>
                             <ul class="gn-submenu">
-                                <li><a class="gn-icon" href="about-me.html">About me</a></li>
-                                <li><a class="gn-icon" href="study.html">Study</a></li>
-                                <li><a class="gn-icon">Projects</a></li>
-                                <li><a class="gn-icon">Contact</a></li>
+                                <li><a class="gn-icon" href="about-me.php">About me</a></li>
+                                <li><a class="gn-icon" href="study.php">Study</a></li>
+                                <li><a class="gn-icon" href="projects.php">Projects</a></li>
+                                <li><a class="gn-icon" href="projects.php">Contact</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -35,43 +36,41 @@
             </nav>
         </li>
         <li>
-            <a href="index.html">Jordy Slaats</a>
+            <a href="index.php">Jordy Slaats</a>
         </li>
     </ul>
 
-    <div class="image_header">
-        <img src="./resources/portfolio3.png" alt="Portfolio Image" id="header_image">
-    </div>
+    <header>
+        <h1 id="study_welcome_title">Study</h1>
+        <button class="about_me_button">See more down below!</button>
+    </header>
 
-    <div class="information_text">
-        <div class="left_container">
+    <div class="study_information">
+        <div class="study_information_left_container">
+            <h1>School Information</h1>
             <div class="linear-gradient-border">
-                <div class="left_container_tabs">
-                    <h2>Developer</h2>
-                    <p>Frontend & Backend web developer</p>
+                <div class="study_information_left_container_tabs" style="margin-top: 0px;">
+                    <h2>ROC Ter AA</h2>
                 </div>
             </div>
-            <div class="left_container_tabs">
-                <h2>Design</h2>
-                <p>Web designer</p>
+            <div class="study_information_left_container_tabs">
+                <h2>Keizerin Marialaan 2, 5702 NR Helmond</h2>
+            </div>
+            <div class="study_information_left_container_tabs">
+                <a href="https://roc-teraa.nl/" target="_blank"><h2>roc-teraa.nl</h2></a>
             </div>
         </div>
-        <div class="right_container">
-            <div class="right_title_text">
-                <h1>My Awesome</h1>
-                <h2>Services</h2>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nihil ullam aperiam optio sequi
-                necessitatibus repellendus molestiae voluptate quod reprehenderit! Minus nisi dolor facilis amet alias
-                asperiores magni soluta voluptate.
-            </p>
-            <button type="button">Download CV</button>
+        <div class="study_information_right_container">
+            <h1>Study Information</h1>
+            <h2>Software Development (bilingual)</h2>
         </div>
     </div>
+
 
     <footer>
         <h3>Copyright &copy; Jordy Slaats</h3>
     </footer>
+
 
     <script src="./js/classie.js"></script>
     <script src="./js/gnmenu.js"></script>
