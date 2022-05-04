@@ -12,9 +12,10 @@
 <body>
     <?php include("./includes/navbar.php"); ?>
     <div class="container">
-        <main role="main" class="pb-3">
-
-        </main>
+        <h1>Welkom op de Politie website van Tedeapolis!</h1>
+        <p>
+            Op deze website kun je informatie vinden betreft ons korps
+        </p>
     </div>
 
 

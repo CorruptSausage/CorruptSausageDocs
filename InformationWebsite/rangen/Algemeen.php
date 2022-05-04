@@ -11,17 +11,19 @@
 
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
+
     <div class="container">
-        <main role="main" class="pb-3">
-            <div class="main_text">Binnen de Politie hebben wij een aantal rangen, hieronder ziet u een foto.</div>
-            <div class="left_container">
-                Aspirant: In opleiding
+        <h1>Rangen</h1>
+        <div class="rangen_algemeen_informatie">
+            <div class="rangen_algemeen_left_container">
+                <p>Binnen het Politiekorps hebben wij een aantal rangen, hier rechts ziet u een foto.</p>
             </div>
-            <div class="right_container">
-                <img src="../resources/rangen-politie.png" class="rangen_image">
+            <div class="rangen_algemeen_right_container">
+                <img src="../resources/rangen-politie.png" alt="Rangen Politie">
             </div>
-        </main>
+        </div>
     </div>
+
     <script src="../lib/jquery/dist/jquery.min.js"></script>
     <script src="../lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/site.js"></script>

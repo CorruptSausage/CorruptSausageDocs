@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid red;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+}
+
+.btn-light {
+    background-color: white;
+    border: none;
+}
+
+.rangen_algemeen_informatie {
+    display: flex;
+}
+
+.rangen_algemeen_left_container {
+    float: left;
+    width: 50%;
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+
+.rangen_algemeen_right_container {
+    float: right;
+    width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    .rangen_algemeen_informatie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rangen_algemeen_left_container {
+        float: left;
+        width: 100%;
+    
+        img {
+            width: 50% !important;
+            margin-bottom: 30px;
+        }
+    }
+
+    .rangen_algemeen_right_container {
+        float: right;
+        width: 100%;
+    }
+}
