@@ -56,7 +56,7 @@ include("./inc/functions.php");
                 <br>
                 <a href="http://localhost/CorruptSausageDocs/PortfolioWebsite/projects.php?project=2"><button>Marvel Shop</button></a>
                 <br>
-                <a href="http://localhost/CorruptSausageDocs/PortfolioWebsite/projects.php?project=3"><button>Iphone Preview</button></a>
+                <a href="http://localhost/CorruptSausageDocs/PortfolioWebsite/projects.php?project=3"><button>Iphone 12</button></a>
             </div>
             <div class="projects_information_middle_container">
                 <a href="http://localhost/CorruptSausageDocs/PortfolioWebsite/projects.php?project=4"><button>TuneStore</button></a>

@@ -370,9 +370,18 @@ footer {
 
 .contact_form_container
 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
     form
     {
         text-align: center;
+    }
+
+    li
+    {
+        list-style-type: none;
     }
     
     .input_type_text
@@ -384,7 +393,6 @@ footer {
         padding-left: 5px;
         transition: 0.5s;
     }
-
 
     textarea
     {
@@ -417,7 +425,18 @@ footer {
         background-color: $dark-color;
         transition: 0.5s;
     }
+
+    a
+    {
+        margin: auto;
+    }
+
+    img
+    {
+        width: 70px !important;
+    }
 }
+
 
 @media screen and (max-width: 600px) {
     #header_image {

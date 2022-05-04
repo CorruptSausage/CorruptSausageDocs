@@ -317,8 +317,16 @@ footer {
   margin-left: 20px;
 }
 
+.contact_form_container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 .contact_form_container form {
   text-align: center;
+}
+.contact_form_container li {
+  list-style-type: none;
 }
 .contact_form_container .input_type_text {
   border: 2px solid #34495e;
@@ -353,6 +361,12 @@ footer {
 .contact_form_container button:hover {
   background-color: #34495e;
   transition: 0.5s;
+}
+.contact_form_container a {
+  margin: auto;
+}
+.contact_form_container img {
+  width: 70px !important;
 }
 
 @media screen and (max-width: 600px) {

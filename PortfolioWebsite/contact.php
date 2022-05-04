@@ -73,6 +73,7 @@
                 </li>
             </ul>
         </form>
+        <a href="https://www.linkedin.com/in/jordy-s-018522222/" target="_blank"><img src="./resources/linkedinLogo.png" id="linkedin_logo"></a>
     </div>
 
 
