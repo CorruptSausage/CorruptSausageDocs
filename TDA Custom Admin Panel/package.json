@@ -1,10 +1,10 @@
 {
-  "name": "stisla-dev",
+  "name": "TDA-dev",
   "version": "1.0.0",
   "description": "Free Bootstrap Admin Template",
   "main": "index.js",
-  "repository": "https://github.com/stisla/stisla",
-  "author": "Stisla Team <nauvalazhar2@gmail.com> (https://getstisla.com)",
+  "repository": "https://github.com/TDA/TDA",
+  "author": "TDA Team <nauvalazhar2@gmail.com> (https://getTDA.com)",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2",
@@ -69,8 +69,8 @@
     "nunjucks": "^3.1.7"
   },
   "scripts": {
-    "stisla-start": "yarn install --production=false",
-    "stisla-dev": "yarn install --prod",
+    "TDA-start": "yarn install --production=false",
+    "TDA-dev": "yarn install --prod",
     "dist": "gulp dist",
     "dev": "gulp"
   }
