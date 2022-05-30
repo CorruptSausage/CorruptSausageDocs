@@ -11,7 +11,7 @@
 
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
-    <div class="container">
+    <div class="container"> 
         <h1>Touran Informatie</h1>
         <div class="rangen_algemeen_informatie">
             <div class="rangen_algemeen_left_container">
@@ -44,6 +44,9 @@
         </div>
         <!-- Copyright -->
     </footer>
+    <div class="police_quote">
+        <p>Waakzaam en Dienstbaar</p>
+    </div>
 
 </body>
 

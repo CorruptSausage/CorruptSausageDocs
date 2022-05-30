@@ -44,7 +44,10 @@
         </div>
         <!-- Copyright -->
     </footer>
-
+    
+    <div class="police_quote">
+        <p>Waakzaam en Dienstbaar</p>
+    </div>
 </body>
 
 </html>

@@ -12,8 +12,11 @@
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
 
-    <div class="container">
+    <div class="rangen_welcome">
         <h1>Rangen</h1>
+    </div>
+
+    <div class="container">
         <div class="rangen_algemeen_informatie">
             <div class="rangen_algemeen_left_container">
                 <p>Binnen het Politiekorps hebben wij een aantal rangen, hier rechts ziet u een foto.</p>
@@ -30,6 +33,9 @@
     <script src="../js/site.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <div class="police_quote">
+        <p>Waakzaam en Dienstbaar</p>
+    </div>
 </body>
 
 </html>

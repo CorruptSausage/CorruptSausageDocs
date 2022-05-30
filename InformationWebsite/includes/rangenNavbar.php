@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <nav class="navbar navbar-expand-sm sticky-top navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <a class="navbar-brand" href="../index.php"><img src="../resources/politie_logo.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,6 +9,9 @@
                 <li class="nav-item">
                     <a href="../index.php"><button type="button" class="btn btn-light">Home</button></a>
                 </li>
+                <li class="nav-item">
+                    <a href="../about_us"><button type="button" class="btn btn-light">Over ons</button></a>
+                </li>   
                 <li class="nav-item">
                     <div class="dropdown">
                         <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
