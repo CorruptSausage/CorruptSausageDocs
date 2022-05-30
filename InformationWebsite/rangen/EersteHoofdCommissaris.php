@@ -11,13 +11,15 @@
 
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
+    <div class="line_black">
+    </div>
     <div class="container">
-        <h1>Eerste Hoofdcommissaris</h1>
-        <div class="rangen_algemeen_informatie">
-            <div class="rangen_algemeen_left_container">
+        <h1 class="rang_title">Eerste Hoofdcommissaris</h1>
+        <div class="rangen_algemeen_informatie_rang">
+            <div class="rangen_left_container">
                 <img src="../resources/Eerste_hoofd_commissaris_rang.png" alt="Eerste Hoofdcommissaris" style="width: 100%;">
             </div>
-            <div class="rangen_algemeen_left_container">
+            <div class="rangen_right_container">
                 <p>Als Eerste Hoofdcommissaris ben je Korpschef en ben je het hoofd aanspreekpunt voor alle politiemedewerkers maar ook voor burgers. Je hebt bewezen dat je enorm loyaal bent tegenover het Politiekorps. Als Korpschef heb je enorm veel bevoegdheden in de stad maar ook tegenover de politierangen die onder jou staan in de rangenstructuur.
                     <br>
                     <br>
@@ -38,16 +40,13 @@
 
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: white;">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
+        <div class="text-center p-2" style="background-color: white;">
+            ©Copyright: <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
         </div>
         <!-- Copyright -->
     </footer>
 
-    <div class="police_quote">
-        <p>Waakzaam en Dienstbaar</p>
-    </div>
+    
 </body>
 
 </html>

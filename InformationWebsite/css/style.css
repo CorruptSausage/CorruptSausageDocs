@@ -4,8 +4,8 @@
 }
 
 .container {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .container_information {
@@ -16,15 +16,6 @@
   padding: 10px;
 }
 .container_information h2 {
-  color: #0E3D6E;
-}
-
-.police_quote {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-.police_quote p {
   color: #0E3D6E;
 }
 
@@ -52,7 +43,7 @@
 }
 
 #main_rangen_image {
-  width: 100% !important;
+  width: 60% !important;
   margin-top: 0px;
 }
 
@@ -65,30 +56,79 @@
   border: none;
 }
 
-.rangen_algemeen_informatie {
-  display: flex;
-}
-
 .rangen_algemeen_left_container {
-  float: left;
-  width: 50%;
+  width: 80%;
+  margin: auto;
 }
-.rangen_algemeen_left_container img {
-  border-radius: 10px;
-  width: 100%;
+.rangen_algemeen_left_container h1 {
+  color: #0E3D6E;
+}
+.rangen_algemeen_left_container h2 {
+  color: #0E3D6E;
 }
 
 .rangen_algemeen_right_container {
+  width: 80%;
+  margin: auto;
+}
+.rangen_algemeen_right_container h1 {
+  color: #0E3D6E;
+}
+
+.rang_information {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.rangen_algemeen_informatie_rang {
+  display: flex;
+}
+
+.rangen_left_container {
+  float: left;
+  width: 50%;
+}
+.rangen_left_container h1 {
   float: right;
-  width: 30%;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+.rangen_right_container {
+  float: right;
+  width: 50%;
+}
+.rangen_right_container img {
+  float: left;
+  width: 300px;
+  margin: auto;
+  padding-left: 20px;
 }
 
 .line_black {
-  border: 1px solid gray;
+  border: 0.5px solid gray;
   width: 90%;
   margin: auto;
   margin-top: 30px;
   opacity: 0.6;
+}
+
+.navbar-toggler {
+  margin-right: 15px !important;
+}
+
+.welcome_header {
+  background-color: #0E3D6E;
+  padding: 200px;
+}
+.welcome_header h1 {
+  text-align: center;
+  color: white;
+}
+
+.welcome_container h2 {
+  color: #0E3D6E;
 }
 
 @media screen and (max-width: 600px) {
@@ -103,7 +143,6 @@
   }
 
   .rangen_algemeen_left_container {
-    float: left;
     width: 100%;
   }
   .rangen_algemeen_left_container img {
@@ -112,8 +151,31 @@
   }
 
   .rangen_algemeen_right_container {
-    float: right;
     width: 100%;
+  }
+
+  #main_rangen_image {
+    width: 90% !important;
+    margin-top: 0px;
+  }
+
+  .rangen_algemeen_informatie_rang {
+    display: block;
+  }
+
+  .rangen_left_container {
+    width: 95%;
+  }
+  .rangen_left_container img {
+    margin-top: 20px;
+  }
+
+  .rang_title {
+    text-align: center;
+  }
+
+  .rangen_right_container {
+    width: 95%;
   }
 }
 

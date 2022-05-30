@@ -11,13 +11,15 @@
 
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
+    <div class="line_black">
+    </div>
     <div class="container">
-        <h1>Brigadier Informatie</h1>
-        <div class="rangen_algemeen_informatie">
-            <div class="rangen_algemeen_left_container">
+        <h1 class="rang_title">Brigadier Informatie</h1>
+        <div class="rangen_algemeen_informatie_rang">
+            <div class="rangen_left_container">
                 <img src="../resources/Brigadier_rang.png" alt="Brigadier" style="width: 100%;">
             </div>
-            <div class="rangen_algemeen_left_container">
+            <div class="rangen_right_container">
                 <p>De brigadier, de leider in het veld. Vanaf dit punt ben jij als politiemedewerker vaak het aanspreekpunt, omdat wij als korpsleiding het vaak druk hebben zul jij vaak leiding moeten geven en hier ook goed in staat toe zijn. In de tijden dat jij de leiding moet nemen, ben jij compleet verantwoordelijk over het team waar jij de leiding over neemt.
                     <br>
                     <br>
@@ -38,16 +40,13 @@
 
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: white;">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
+        <div class="text-center p-2" style="background-color: white;">
+            ©Copyright: <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
         </div>
         <!-- Copyright -->
     </footer>
 
-    <div class="police_quote">
-        <p>Waakzaam en Dienstbaar</p>
-    </div>
+    
 </body>
 
 </html>

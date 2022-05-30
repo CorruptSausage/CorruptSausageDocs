@@ -38,15 +38,12 @@
 
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: white;">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
+        <div class="text-center p-2" style="background-color: white;">
+            ©Copyright: <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
         </div>
         <!-- Copyright -->
     </footer>
-    <div class="police_quote">
-        <p>Waakzaam en Dienstbaar</p>
-    </div>
+    
 
 </body>
 

@@ -11,13 +11,15 @@
 
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
+    <div class="line_black">
+    </div>
     <div class="container">
-        <h1>Hoofdagent Informatie</h1>
-        <div class="rangen_algemeen_informatie">
-            <div class="rangen_algemeen_left_container">
+        <h1 class="rang_title">Hoofdagent Informatie</h1>
+        <div class="rangen_algemeen_informatie_rang">
+            <div class="rangen_left_container">
                 <img src="../resources/Hoofd_agent_rang.png" alt="Hoofdagent" style="width: 100%;">
             </div>
-            <div class="rangen_algemeen_left_container">
+            <div class="rangen_right_container">
                 <p>Als hoofdagent ben je allround politiemedewerker. Dit betekent dat je alle kennis beschikt om je taken als politieagent correct uit te kunnen voeren. Ook kun je bij kleine incidenten de leiding nemen, indien er geen officier van dienst of operationeel coördinator aanwezig is. Ook heb je een grotere verantwoordelijkheid dan lagere rangen, dus jij als Hoofdagent hebt de leiding indien er niemand hoger aanwezig of als er geen Officier van Dienst Politie (OVD-P) aanwezig is. Als je de Officier van Dienst Politie (OVD-P) training hebt behaald dien je ten allen tijden als Officier van Dienst Politie (OVD-P) aan te melden als die niet aanwezig is.
                     <br>
                     <br>
@@ -39,16 +41,13 @@
 
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: white;">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
+        <div class="text-center p-2" style="background-color: white;">
+            ©Copyright: <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
         </div>
         <!-- Copyright -->
     </footer>
 
-    <div class="police_quote">
-        <p>Waakzaam en Dienstbaar</p>
-    </div>
+    
 </body>
 
 </html>

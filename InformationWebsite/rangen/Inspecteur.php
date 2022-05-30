@@ -11,13 +11,15 @@
 
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
+    <div class="line_black">
+    </div>
     <div class="container">
-        <h1>Inspecteur</h1>
-        <div class="rangen_algemeen_informatie">
-            <div class="rangen_algemeen_left_container">
+        <h1 class="rang_title">Inspecteur</h1>
+        <div class="rangen_algemeen_informatie_rang">
+            <div class="rangen_left_container">
                 <img src="../resources/Inspecteur_rang.png" alt="Inspecteur" style="width: 100%;">
             </div>
-            <div class="rangen_algemeen_left_container">
+            <div class="rangen_right_container">
                 <p>Inspecteur is de rang waar je veel verantwoordelijkheden krijgt van de korpsleiding. Je geeft vaak al enige tijd trainingen, of wordt gevraagd om trainingen te geven. Wellicht ben je mentor of heb je een andere extra taak binnen het Politiekorps gekregen.
                     <br>
                     <br>
@@ -38,16 +40,13 @@
 
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: white;">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
+        <div class="text-center p-2" style="background-color: white;">
+            ©Copyright: <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
         </div>
         <!-- Copyright -->
     </footer>
 
-    <div class="police_quote">
-        <p>Waakzaam en Dienstbaar</p>
-    </div>
+    
 </body>
 
 </html>

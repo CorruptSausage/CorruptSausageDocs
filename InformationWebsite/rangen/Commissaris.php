@@ -11,13 +11,15 @@
 
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
+    <div class="line_black">
+    </div>
     <div class="container">
-        <h1>Commissaris</h1>
-        <div class="rangen_algemeen_informatie">
-            <div class="rangen_algemeen_left_container">
+        <h1 class="rang_title">Commissaris</h1>
+        <div class="rangen_algemeen_informatie_rang">
+            <div class="rangen_left_container">
                 <img src="../resources/Commissaris_rang.png" alt="Commissaris" style="width: 100%;">
             </div>
-            <div class="rangen_algemeen_left_container">
+            <div class="rangen_right_container">
                 <p>Als Commissaris ben je een het meest ervaren lid van het Politiekorps buiten de Korpsleiding om. Je bent in staat om op hoog niveau leiding te geven aan extra functie zoals trainer of eventueel leidinggevende binnen een neventaak. Je hebt veel energie en tijd gestoken in het Politiekorps om het te maken zoals het nu tot heden is.
                     <br>
                     <br>
@@ -41,16 +43,13 @@
 
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: white;">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
+        <div class="text-center p-2" style="background-color: white;">
+            ©Copyright: <a class="text-dark" href="https://tedeapolis.nl/">Tedeapolis Politie</a>
         </div>
         <!-- Copyright -->
     </footer>
 
-    <div class="police_quote">
-        <p>Waakzaam en Dienstbaar</p>
-    </div>
+    
 </body>
 
 </html>
