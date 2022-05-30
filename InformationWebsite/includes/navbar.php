@@ -38,8 +38,11 @@
                             Voertuigen
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://porto.tdafivem.nl/" target="_blank">Porto</a></li>
-                            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1o7N-Zl-m0QEft2RCdz4jSkHKwuvnNZxcCuXNDQdjzK0/edit#gid=1533689344" target="_blank">Strafberekeningssheet</a></li>
+                        <li><a class="dropdown-item" href="./voertuigen/Touran">Touran</a></li>
+                            <li><a class="dropdown-item" href="./voertuigen/bklasse">B-Klasse</a></li>
+                            <li><a class="dropdown-item" href="./voertuigen/vito">Vito</a></li>
+                            <li><a class="dropdown-item" href="./voertuigen/siv">SIV</a></li>
+                            <li><a class="dropdown-item" href="./voertuigen/motors">Motoren</a></li>
                         </ul>
                     </div>
                 </li>

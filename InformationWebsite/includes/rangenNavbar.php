@@ -18,19 +18,19 @@
                             Rangen
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./Algemeen">Algemeen</a></li>
-                            <li><a class="dropdown-item" href="./Aspirant">Aspirant</a></li>
-                            <li><a class="dropdown-item" href="./Surveillant">Surveillant</a></li>
-                            <li><a class="dropdown-item" href="./Agent">Agent</a></li>
-                            <li><a class="dropdown-item" href="./HoofdAgent">Hoofd-Agent</a></li>
-                            <li><a class="dropdown-item" href="./Brigadier">Brigadier</a></li>
-                            <li><a class="dropdown-item" href="./Inspecteur">Inspecteur</a></li>
-                            <li><a class="dropdown-item" href="./HoofdInspecteur">Hoofd-Inspecteur</a>
+                            <li><a class="dropdown-item" href="../rangen/Algemeen.php">Algemeen</a></li>
+                            <li><a class="dropdown-item" href="../rangen/Aspirant">Aspirant</a></li>
+                            <li><a class="dropdown-item" href="../rangen/Surveillant">Surveillant</a></li>
+                            <li><a class="dropdown-item" href="../rangen/Agent">Agent</a></li>
+                            <li><a class="dropdown-item" href="../rangen/HoofdAgent">Hoofd-Agent</a></li>
+                            <li><a class="dropdown-item" href="../rangen/Brigadier">Brigadier</a></li>
+                            <li><a class="dropdown-item" href="../rangen/Inspecteur">Inspecteur</a></li>
+                            <li><a class="dropdown-item" href="../rangen/HoofdInspecteur">Hoofd-Inspecteur</a>
                             </li>
-                            <li><a class="dropdown-item" href="./Commissaris">Commissaris</a></li>
-                            <li><a class="dropdown-item" href="./HoofdCommissaris">Hoofd-Commissaris</a>
+                            <li><a class="dropdown-item" href="../rangen/Commissaris">Commissaris</a></li>
+                            <li><a class="dropdown-item" href="../rangen/HoofdCommissaris">Hoofd-Commissaris</a>
                             </li>
-                            <li><a class="dropdown-item" href="./EersteHoofdCommissaris">Eerste Hoofdcommissaris</a>
+                            <li><a class="dropdown-item" href="../rangen/EersteHoofdCommissaris">Eerste Hoofdcommissaris</a>
                             </li>
                         </ul>
                     </div>
@@ -41,8 +41,11 @@
                             Voertuigen
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://porto.tdafivem.nl/" target="_blank">Porto</a></li>
-                            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1o7N-Zl-m0QEft2RCdz4jSkHKwuvnNZxcCuXNDQdjzK0/edit#gid=1533689344" target="_blank">Strafberekeningssheet</a></li>
+                            <li><a class="dropdown-item" href="../voertuigen/Touran">Touran</a></li>
+                            <li><a class="dropdown-item" href="../voertuigen/bklasse">B-Klasse</a></li>
+                            <li><a class="dropdown-item" href="../voertuigen/vito">Vito</a></li>
+                            <li><a class="dropdown-item" href="../voertuigen/siv">SIV</a></li>
+                            <li><a class="dropdown-item" href="../voertuigen/motors">Motoren</a></li>
                         </ul>
                     </div>
                 </li>

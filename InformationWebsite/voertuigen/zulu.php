@@ -12,7 +12,7 @@
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
     <div class="container"> 
-        <h1>Touran Informatie</h1>
+        <h1>ZULU Informatie</h1>
         
     </div>
     <div class="line_black">
