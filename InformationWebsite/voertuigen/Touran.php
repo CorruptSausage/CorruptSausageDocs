@@ -12,16 +12,16 @@
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
     <div class="container">
-        <h1>Brigadier Informatie</h1>
+        <h1>Touran Informatie</h1>
         <div class="rangen_algemeen_informatie">
             <div class="rangen_algemeen_left_container">
-                <img src="../resources/Brigadier_rang.png" alt="Brigadier" style="width: 100%;">
+                <img src="../resources/Agent_rang.png" alt="Agent" style="width: 100%;">
             </div>
             <div class="rangen_algemeen_left_container">
-                <p>De brigadier, de leider in het veld. Vanaf dit punt ben jij als politiemedewerker vaak het aanspreekpunt, omdat wij als korpsleiding het vaak druk hebben zul jij vaak leiding moeten geven en hier ook goed in staat toe zijn. In de tijden dat jij de leiding moet nemen, ben jij compleet verantwoordelijk over het team waar jij de leiding over neemt.
+                <p>De politie rang Agent kan je officieel een volwaardige politiemedewerker noemen. Op deze rang ben je bijna bevoegd om alles te kunnen doen wat je in het veld kan en moet doen. Na de politie rang Agent heb je nog meer rangen die je kan behalen als je aan de politie rang eisen voldoet.
                     <br>
                     <br>
-                    Als Brigadier wordt er verwacht dat je alle protocollen bovengemiddeld beheerst. Je moet immers eenheden feedback kunnen geven en beslissingen kunnen maken. Ook moet je soms dingen uitleggen aan lagere rangen, je bent tenslotte een zeer ervaren politiemedewerker en zal dus ook vaak gevraagd worden voor hulp tijdens politietaken.
+                    Op deze rang ben je automatisch een vuurwapen dragende eenheid aangezien je de IBT Training van de politie rang Surveillant hebt behaald. Je bent bevoegd om naar alle meldingen te gaan. Ook heb je een grotere verantwoordelijkheid dan lagere rangen, dus jij als Agent hebt de leiding indien er niemand hoger aanwezig of als er geen Officier van Dienst Politie (OVD-P) aanwezig is. Als je de Officier van Dienst Politie (OVD-P) training hebt behaald dien je ten allen tijden als Officier van Dienst Politie (OVD-P) aan te melden als die niet aanwezig is. Op de politie rang Agent heb je de mogelijkheid om maximaal één voertuig specialisatie te behalen.
                     <br>
                     <br>
                 </p>
@@ -44,6 +44,7 @@
         </div>
         <!-- Copyright -->
     </footer>
+
 </body>
 
 </html>

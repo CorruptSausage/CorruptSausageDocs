@@ -17,9 +17,10 @@
         <div class="rangen_algemeen_informatie">
             <div class="rangen_algemeen_left_container">
                 <p>Binnen het Politiekorps hebben wij een aantal rangen, hier rechts ziet u een foto.</p>
+                <br>
+                <img src="../resources/rangen-politie.png" alt="Rangen Politie" id="main_rangen_image">
             </div>
             <div class="rangen_algemeen_right_container">
-                <img src="../resources/rangen-politie.png" alt="Rangen Politie">
             </div>
         </div>
     </div>

@@ -25,26 +25,32 @@
                             <li><a class="dropdown-item" href="./Rangen/HoofdInspecteur">Hoofd-Inspecteur</a></li>
                             <li><a class="dropdown-item" href="./Rangen/Commissaris">Commissaris</a></li>
                             <li><a class="dropdown-item" href="./Rangen/HoofdCommissaris">Hoofd-Commissaris</a></li>
-                            <li><a class="dropdown-item" href="./Rangen/EersteHoofdCommissaris">EersteHoofd-Commissaris</a></li>
+                            <li><a class="dropdown-item" href="./Rangen/EersteHoofdCommissaris">Eerste Hoofdcommissaris</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
                         <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
-                            Belangrijke links
+                            Voertuigen
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="https://porto.tdafivem.nl/" target="_blank">Porto</a></li>
-                            <li><a class="dropdown-item" href="https://meos.tdafivem.nl/login" target="_blank">Meos</a></li>
-                            <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1SocrHDvTUHfpqxJAcxecYgsKzTk4yDv7_I6ADrcta2U/edit#gid=0" target="_blank">Voertuigenlijst</a></li>
-                            <li><a class="dropdown-item" href="https://wetboek.tedeapolis.nl/" target="_blank">Wetboek/APV</a></li>
                             <li><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1o7N-Zl-m0QEft2RCdz4jSkHKwuvnNZxcCuXNDQdjzK0/edit#gid=1533689344" target="_blank">Strafberekeningssheet</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="./ontslag"><button type="button" class="btn btn-light">Ontslag</button></a>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                            Links
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="https://tedeapolis.nl/solliciteren-politie/" target="_blank">Solliciteren</a></li>
+                            <a class="dropdown-item" href="https://tedeapolis.nl/klachten-formulier-politie/" target="_blank">Klachten Formulier</a></li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
