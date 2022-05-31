@@ -34,8 +34,10 @@
 
 .about_us_welcome {
   background-color: #0E3D6E;
-  padding: 180px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   display: flex;
+  width: 100vw;
 }
 .about_us_welcome h1 {
   font-size: 60px;
@@ -125,9 +127,22 @@
 
 .welcome_header {
   background-color: #0E3D6E;
-  padding: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100vw;
 }
 .welcome_header h1 {
+  text-align: center;
+  color: white;
+}
+
+.sollicitatie_header {
+  background-color: #0E3D6E;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.sollicitatie_header h1 {
   text-align: center;
   color: white;
 }
@@ -181,12 +196,14 @@
 .korpschef {
   margin: auto;
 }
-.korpschef h1, .korpschef p {
+.korpschef h2,
+.korpschef p {
   text-align: center;
 }
 
 .korpleiding {
   text-align: center;
+  text-overflow: ellipsis;
 }
 
 .korpsleiding_icons {
@@ -201,20 +218,49 @@
   width: 90%;
   margin: auto;
   margin-top: 20px;
+  transition: 0.5s;
 }
 
 .korpsleiding_left_row {
   float: left;
   margin: auto;
+  width: 33.33%;
+  transition: 0.5s;
 }
 
 .korpsleiding_middle_row {
   margin: auto;
+  width: 33.33%;
+  transition: 0.5s;
 }
 
 .korpsleiding_right_row {
   float: right;
   margin: auto;
+  width: 33.33%;
+  transition: 0.5s;
+}
+
+#sollicitatie_button {
+  color: white;
+  background-color: #0E3D6E;
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 0.5s;
+  border: none;
+  border-radius: 5px;
+}
+
+#sollicitatie_button:hover {
+  color: white;
+  background-color: #0a2c51;
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 30px;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 600px) {
@@ -278,6 +324,7 @@
     text-align: center;
     padding: 40px;
     border-radius: 15px;
+    margin: auto;
     transition: 0.5s;
   }
 
@@ -286,6 +333,7 @@
     text-align: center;
     padding: 40px;
     border-radius: 15px;
+    margin: auto;
     transition: 0.5s;
   }
 
@@ -294,7 +342,45 @@
     text-align: center;
     padding: 40px;
     border-radius: 15px;
+    margin: auto;
     transition: 0.5s;
+  }
+
+  .korpsleiding_container {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    transition: 0.5s;
+  }
+
+  .korpsleiding_row {
+    flex-direction: column;
+    transition: 0.5s;
+    width: 100%;
+  }
+
+  .korpsleiding_left_row {
+    margin: auto;
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .korpsleiding_middle_row {
+    margin: auto;
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .korpsleiding_right_row {
+    margin: auto;
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .korpleiding h2 {
+    white-space: nowrap;
+    text-align: center;
   }
 }
 

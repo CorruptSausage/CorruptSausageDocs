@@ -49,11 +49,11 @@
                 <li class="nav-item">
                     <div class="dropdown">
                         <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
-                            Links
+                            Extra's
                         </button>
                         <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="https://tedeapolis.nl/solliciteren-politie/" target="_blank">Solliciteren</a></li>
+                            <a class="dropdown-item" href="./solliciteren">Solliciteren</a></li>
                             <a class="dropdown-item" href="https://tedeapolis.nl/klachten-formulier-politie/" target="_blank">Klachten Formulier</a></li>
                         </ul>
                     </div>

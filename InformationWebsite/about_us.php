@@ -44,7 +44,7 @@
     <div class="container">
         <h2 class="title_blue">Waar staat de politie voor?</h2>
         <ul>
-            <li>Veiligheidszorg. Iedereen binnen Nederland moet zich veilig kunnen voelen.</li>
+            <li>Veiligheidszorg. Iedereen binnen Tedeapolis moet zich veilig kunnen voelen.</li>
             <li>Criminaliteit voorkomen en bestrijden.</li>
             <li>De openbare orde bewaken. De openbare orde is de rust en de orde op straat en in openbare gelegenheden.</li>
             <li>Strafbare feiten opsporen.</li>
@@ -92,21 +92,21 @@
         <div class="korpsleiding_left_row">
             <div class="korpleiding">
                 <img src="./resources/person_template.png" class="korpsleiding_icons">
-                <h2>Sander Dekkers</h2>
+                <h2>Florian Huisbaas</h2>
                 <p>Hoofdcommissaris</p>
             </div>
         </div>
         <div class="korpsleiding_middle_row">
         <div class="korpleiding">
                 <img src="./resources/person_template.png" class="korpsleiding_icons">
-                <h2>Tommy Huisbaas</h2>
+                <h2>Arjen Adams</h2>
                 <p>Hoofdcommissaris</p>
             </div>
         </div>
         <div class="korpsleiding_right_row">
             <div class="korpleiding">
                 <img src="./resources/person_template.png" class="korpsleiding_icons">
-                <h2>Florian Huisbaas</h2>
+                <h2>Peter Poster</h2>
                 <p>Hoofdcommissaris</p>
             </div>
         </div>

@@ -39,8 +39,10 @@ $primary-color: #0E3D6E;
 
 .about_us_welcome {
     background-color: $primary-color;
-    padding: 180px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: flex;
+    width: 100vw;
 
     h1 {
         font-size: 60px;
@@ -76,8 +78,7 @@ $primary-color: #0E3D6E;
     }
 }
 
-.title_blue
-{
+.title_blue {
     color: $primary-color;
 }
 
@@ -137,7 +138,21 @@ $primary-color: #0E3D6E;
 
 .welcome_header {
     background-color: $primary-color;
-    padding: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100vw;
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+}
+
+.sollicitatie_header {
+    background-color: $primary-color;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
 
     h1 {
         text-align: center;
@@ -187,59 +202,83 @@ $primary-color: #0E3D6E;
     transition: 0.5s;
 }
 
-.korpsleiding_container
-{
+.korpsleiding_container {
     width: 100%;
     display: flex;
     margin-top: 50px;
 }
 
-.korpschef
-{
+.korpschef {
     margin: auto;
 
-    h1,p
-    {
+    h2,
+    p {
         text-align: center;
     }
 }
 
-.korpleiding
-{
+.korpleiding {
     text-align: center;
+    text-overflow: ellipsis;
 }
 
-.korpsleiding_icons
-{
+.korpsleiding_icons {
     border-radius: 90px;
     padding: 5px;
     width: 150px;
     border: 1px solid black;
 }
 
-.korpsleiding_row
-{
+.korpsleiding_row {
     display: flex;
     width: 90%;
     margin: auto;
     margin-top: 20px;
+    transition: 0.5s;
 }
 
-.korpsleiding_left_row
-{
+.korpsleiding_left_row {
     float: left;
     margin: auto;
+    width: 33.33%;
+    transition: 0.5s;
 }
 
-.korpsleiding_middle_row
-{
+.korpsleiding_middle_row {
     margin: auto;
+    width: 33.33%;
+    transition: 0.5s;
 }
 
-.korpsleiding_right_row
-{
+.korpsleiding_right_row {
     float: right;
     margin: auto;
+    width: 33.33%;
+    transition: 0.5s;
+}
+
+#sollicitatie_button
+{
+    color: white;
+    background-color: $primary-color;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+    border: none;
+    border-radius: 5px;
+}
+
+#sollicitatie_button:hover
+{
+    color: white;
+    background-color: #0a2c51;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 600px) {
@@ -305,6 +344,7 @@ $primary-color: #0E3D6E;
         text-align: center;
         padding: 40px;
         border-radius: 15px;
+        margin: auto;
         transition: 0.5s;
     }
 
@@ -313,6 +353,7 @@ $primary-color: #0E3D6E;
         text-align: center;
         padding: 40px;
         border-radius: 15px;
+        margin: auto;
         transition: 0.5s;
     }
 
@@ -321,6 +362,47 @@ $primary-color: #0E3D6E;
         text-align: center;
         padding: 40px;
         border-radius: 15px;
+        margin: auto;  
         transition: 0.5s;
+    }
+
+    .korpsleiding_container {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+    .korpsleiding_row {
+        flex-direction: column;
+        transition: 0.5s;
+        width: 100%;
+    }
+
+    .korpsleiding_left_row {
+        margin: auto;
+        width: 100%;
+        transition: 0.5s;
+    }
+
+    .korpsleiding_middle_row {
+        margin: auto;
+        width: 100%;
+        transition: 0.5s;
+    }
+
+    .korpsleiding_right_row {
+        margin: auto;
+        width: 100%;
+        transition: 0.5s;
+    }
+
+    .korpleiding
+    {
+        h2{
+            white-space: nowrap;
+            text-align: center;
+        }
     }
 }
