@@ -101,7 +101,22 @@ $primary-color: #0E3D6E;
     display: flex;
 }
 
+.voertuigen_algemeen_informatie_voertuig {
+    display: flex;
+}
+
 .rangen_left_container {
+    float: left;
+    width: 50%;
+
+    h1 {
+        float: right;
+        padding-top: 40px;
+        padding-right: 20px;
+    }
+}
+
+.voertuigen_left_container {
     float: left;
     width: 50%;
 
@@ -121,6 +136,29 @@ $primary-color: #0E3D6E;
         width: 300px;
         margin: auto;
         padding-left: 20px;
+    }
+}
+
+.voertuigen_right_container {
+    float: right;
+    width: 50%;
+
+    img {
+        float: left;
+        width: 300px;
+        margin: auto;
+        padding-left: 20px;
+    }
+
+    h2, p
+    {
+        padding-left: 5px;
+    }
+
+    h2
+    {
+        color: $primary-color;
+        font-size: 25px;
     }
 }
 
@@ -314,6 +352,10 @@ $primary-color: #0E3D6E;
         display: block;
     }
 
+    .voertuigen_algemeen_informatie_voertuigen {
+        display: block;
+    }
+
     .rangen_left_container {
         width: 95%;
 
@@ -323,6 +365,10 @@ $primary-color: #0E3D6E;
     }
 
     .rang_title {
+        text-align: center;
+    }
+
+    .voertuig_title {
         text-align: center;
     }
 

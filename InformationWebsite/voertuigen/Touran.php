@@ -11,9 +11,26 @@
 
 <body>
     <?php include("../includes/rangenNavbar.php"); ?>
-    <div class="container"> 
-        <h1>Touran Informatie</h1>
-        
+    <div class="line_black">
+    </div>
+    <div class="container">
+        <h1 class="voertuig_title">Touran informatie</h1>
+        <div class="voertuigen_algemeen_informatie_voertuig">
+            <div class="voertuigen_left_container">
+                <img src="../resources/touran.png" alt="Touran" style="width: 100%;">
+            </div>
+            <div class="voertuigen_right_container">
+                <h2>Volkswagen Touran</h2>
+                <p>De Touran is zowel als de B-Klasse een noodhulp voertuig, hij kan inprincipe voor alles ingezet worden en heeft ook alles bij zich wat een dienstauto bij zich kan hebben.</p>
+                <br>
+                <h2>Voertuig informatie</h2>
+                <ul>
+                    <li>Merk: Volkswagen</li>
+                    <li>Model: Touran</li>
+                    <li>Gewicht: +/- 1500 Kg</li>
+                </ul>
+            </div>
+        </div>
     </div>
     <div class="line_black">
     </div>
