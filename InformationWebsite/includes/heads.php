@@ -4,5 +4,5 @@
     <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="./resources/politie_icon.png" />
     <link rel="stylesheet" href="./css/style.css" type="text/css">
