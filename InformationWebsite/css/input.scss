@@ -6,25 +6,10 @@ $primary-color: #0E3D6E;
     padding: 0;
 }
 
-.container {
-    border-radius: 5px;
-    margin-top: 10px;
-}
+/* Rangen */
 
-.container_information {
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    padding: 10px;
-
-    h2 {
-        color: $primary-color;
-    }
-}
-
-.mb-3 {
-    margin-bottom: 0px !important;
+.rangen_algemeen_informatie_rang {
+    display: flex;
 }
 
 .rangen_welcome {
@@ -37,86 +22,7 @@ $primary-color: #0E3D6E;
     }
 }
 
-.about_us_welcome {
-    background-color: $primary-color;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    display: flex;
-    width: 100%;
-
-    h1 {
-        font-size: 60px;
-        color: white;
-        margin: auto;
-    }
-}
-
-#main_rangen_image {
-    width: 60% !important;
-    margin-top: 0px;
-}
-
-.navbar-brand {
-    padding-left: 2%;
-}
-
-.btn-light {
-    background-color: white;
-    border: none;
-}
-
-.rangen_algemeen_left_container {
-    width: 80%;
-    margin: auto;
-
-    h1 {
-        color: $primary-color;
-    }
-
-    h2 {
-        color: $primary-color;
-    }
-}
-
-.title_blue {
-    color: $primary-color;
-}
-
-.rangen_algemeen_right_container {
-    width: 80%;
-    margin: auto;
-
-    h1 {
-        color: $primary-color;
-    }
-}
-
-.rang_information {
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.rangen_algemeen_informatie_rang {
-    display: flex;
-}
-
-.voertuigen_algemeen_informatie_voertuig {
-    display: flex;
-}
-
 .rangen_left_container {
-    float: left;
-    width: 50%;
-
-    h1 {
-        float: right;
-        padding-top: 40px;
-        padding-right: 20px;
-    }
-}
-
-.voertuigen_left_container {
     float: left;
     width: 50%;
 
@@ -136,6 +42,56 @@ $primary-color: #0E3D6E;
         width: 300px;
         margin: auto;
         padding-left: 20px;
+    }
+}
+
+.rangen_algemeen_right_container {
+    width: 80%;
+    margin: auto;
+
+    h1 {
+        color: $primary-color;
+    }
+}
+
+.rang_information {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.rangen_algemeen_left_container {
+    width: 80%;
+    margin: auto;
+
+    h1 {
+        color: $primary-color;
+    }
+
+    h2 {
+        color: $primary-color;
+    }
+}
+
+#main_rangen_image {
+    width: 60% !important;
+    margin-top: 0px;
+}
+
+/* Voertuigen */
+
+.voertuigen_algemeen_informatie_voertuig {
+    display: flex;
+}
+
+.voertuigen_left_container {
+    float: left;
+    width: 50%;
+
+    h1 {
+        float: right;
+        padding-top: 40px;
+        padding-right: 20px;
     }
 }
 
@@ -161,6 +117,8 @@ $primary-color: #0E3D6E;
         font-size: 25px;
     }
 }
+
+/* Extra's */
 
 .line_black {
     border: 0.5px solid gray;
@@ -196,6 +154,33 @@ $primary-color: #0E3D6E;
         text-align: center;
         color: white;
     }
+}
+
+.about_us_welcome {
+    background-color: $primary-color;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    width: 100%;
+
+    h1 {
+        font-size: 60px;
+        color: white;
+        margin: auto;
+    }
+}
+
+.navbar-brand {
+    padding-left: 2%;
+}
+
+.btn-light {
+    background-color: white;
+    border: none;
+}
+
+.title_blue {
+    color: $primary-color;
 }
 
 .welcome_container {
@@ -319,6 +304,27 @@ $primary-color: #0E3D6E;
     transition: 0.5s;
 }
 
+.container {
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.container_information {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+
+    h2 {
+        color: $primary-color;
+    }
+}
+
+.mb-3 {
+    margin-bottom: 0px !important;
+}
+
 @media screen and (max-width: 600px) {
     .container {
         box-shadow: none;
@@ -326,6 +332,11 @@ $primary-color: #0E3D6E;
     }
 
     .rangen_algemeen_informatie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .voertuigen_algemeen_informatie {
         display: flex;
         flex-direction: column;
     }
@@ -339,7 +350,20 @@ $primary-color: #0E3D6E;
         }
     }
 
+    .voertuigen_algemeen_left_container {
+        width: 100%;
+
+        img {
+            width: 50% !important;
+            margin-bottom: 30px;
+        }
+    }
+
     .rangen_algemeen_right_container {
+        width: 100%;
+    }
+
+    .voertuigen_algemeen_right_container {
         width: 100%;
     }
 
@@ -352,11 +376,20 @@ $primary-color: #0E3D6E;
         display: block;
     }
 
-    .voertuigen_algemeen_informatie_voertuigen {
-        display: block;
+    .voertuigen_algemeen_informatie_voertuig {
+        display: flex;
+        flex-direction: column;
     }
 
     .rangen_left_container {
+        width: 95%;
+
+        img {
+            margin-top: 20px;
+        }
+    }
+
+    .voertuigen_left_container {
         width: 95%;
 
         img {
@@ -373,6 +406,10 @@ $primary-color: #0E3D6E;
     }
 
     .rangen_right_container {
+        width: 95%;
+    }
+
+    .voertuigen_right_container {
         width: 95%;
     }
 
